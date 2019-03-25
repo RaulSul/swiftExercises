@@ -56,16 +56,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FpY-R4-hYJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FpY-R4-hYJ">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="FpY-R4-hYJ" secondAttribute="bottom" id="TTz-mM-SlU"/>
-                            <constraint firstAttribute="trailing" secondItem="FpY-R4-hYJ" secondAttribute="trailing" id="XwB-8N-YPd"/>
-                            <constraint firstItem="FpY-R4-hYJ" firstAttribute="leading" secondItem="AM1-9L-iRj" secondAttribute="leading" id="pJC-9m-6ML"/>
-                            <constraint firstItem="FpY-R4-hYJ" firstAttribute="top" secondItem="AM1-9L-iRj" secondAttribute="top" id="wzD-9l-6Id"/>
+                            <constraint firstItem="FpY-R4-hYJ" firstAttribute="leading" secondItem="AM1-9L-iRj" secondAttribute="leading" id="6vt-gx-MDm"/>
+                            <constraint firstItem="FpY-R4-hYJ" firstAttribute="top" secondItem="AM1-9L-iRj" secondAttribute="top" id="CoL-on-eZD"/>
+                            <constraint firstAttribute="bottom" secondItem="FpY-R4-hYJ" secondAttribute="bottom" id="Tmq-G4-G6F"/>
+                            <constraint firstAttribute="trailing" secondItem="FpY-R4-hYJ" secondAttribute="trailing" id="VQI-78-B0l"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sl1-VM-CoR"/>
                     </view>
