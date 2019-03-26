@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         button3.setImage(UIImage(named: countries[2]), for: .normal)
         
         //setting up question in title
-        title = countries[correctAnswer].uppercased()
+        title = countries[correctAnswer].uppercased() + " | Score: \(score)"
     }
 
     @IBAction func buttonTapped(_ sender: UIButton) {
@@ -53,10 +53,10 @@ class ViewController: UIViewController {
         var title: String
         
         if sender.tag == correctAnswer {
-            title = "Correct"
+            title = "Correct!"
             score += 1
         } else {
-            title = "Wrong"
+            title = "Wrong. That's the flag of \(countries[sender.tag].uppercased())!"
             score -= 1
         }
         
