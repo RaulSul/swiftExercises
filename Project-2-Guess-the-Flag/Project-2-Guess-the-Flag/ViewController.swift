@@ -44,7 +44,9 @@ class ViewController: UIViewController {
         button2.setImage(UIImage(named: countries[1]), for: .normal)
         button3.setImage(UIImage(named: countries[2]), for: .normal)
         
+        //setting up question in title
         title = countries[correctAnswer].uppercased()
+        
         
     }
 
