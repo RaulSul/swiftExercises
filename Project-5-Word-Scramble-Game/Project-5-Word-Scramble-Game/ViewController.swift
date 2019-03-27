@@ -56,7 +56,7 @@ class ViewController: UITableViewController {
         let submitAction = UIAlertAction(title: "Submit", style: .default) {
             [weak self, weak ac] _ in
             guard let answer = ac?.textFields?[0].text else { return }
-            self?.submit(answer)
+            self?.submit(answer.lowercased())
         }
         
         ac.addAction(submitAction)
@@ -99,17 +99,18 @@ class ViewController: UITableViewController {
         present(ac, animated: true)
     }
     
+    //word limitation:
     func isPossible(word: String) -> Bool {
         guard var tempWord = title?.lowercased() else { return false }
-        
-        for letter in word {
-            if let position = tempWord.firstIndex(of: letter) {
-                tempWord.remove(at: position)
-            } else {
-                return false
+        if word.count > 2 {
+            for letter in word {
+                if let position = tempWord.firstIndex(of: letter) {
+                    tempWord.remove(at: position)
+                } else {
+                    return false
+                }
             }
         }
-        
         return true
     }
     func isOriginal(word: String) -> Bool {
