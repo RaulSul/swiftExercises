@@ -47,6 +47,14 @@ class ViewController: UITableViewController {
         cell.detailTextLabel?.text = petition.body
         return cell
     }
+    
+    //implementation of the "free-floating" class DetailViewController.swift:
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = DetailViewController() //vc is a new view controller
+        vc.detailItem = petitions[indexPath.row]
+        
+        navigationController?.pushViewController(vc, animated: true)
+    }
 
 }
 
