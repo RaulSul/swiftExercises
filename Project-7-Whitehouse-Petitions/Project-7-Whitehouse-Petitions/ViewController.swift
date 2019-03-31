@@ -18,11 +18,11 @@ class ViewController: UITableViewController {
         //url toggling setup -> general list -or- most popular
         let urlString: String
         if navigationController?.tabBarItem.tag == 0 {
-            //urlString = "https://api.whitehouse.gov/v1/petitions.json?limit=100"
-            urlString = "https://www.hackingwithswift.com/samples/petitions-1.json"
+            urlString = "https://api.whitehouse.gov/v1/petitions.json?limit=100"
+            //urlString = "https://www.hackingwithswift.com/samples/petitions-1.json"
         } else {
-            //urlString = "https://api.whitehouse.gov/v1/petitions.json?signatureCountFloor=10000&limit=100"
-            urlString = "https://www.hackingwithswift.com/samples/petitions-2.json"
+            urlString = "https://api.whitehouse.gov/v1/petitions.json?signatureCountFloor=10000&limit=100"
+            //urlString = "https://www.hackingwithswift.com/samples/petitions-2.json"
         }
         
         if let url = URL(string: urlString) {
