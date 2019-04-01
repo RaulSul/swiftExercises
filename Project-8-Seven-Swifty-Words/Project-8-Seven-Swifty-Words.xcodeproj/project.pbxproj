@@ -12,6 +12,8 @@
 		E5F3B0A82250EEB0008EFFB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F3B0A62250EEB0008EFFB4 /* Main.storyboard */; };
 		E5F3B0AA2250EEB6008EFFB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F3B0A92250EEB6008EFFB4 /* Assets.xcassets */; };
 		E5F3B0AD2250EEB6008EFFB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F3B0AB2250EEB6008EFFB4 /* LaunchScreen.storyboard */; };
+		E5F3B0B622520522008EFFB4 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = E5F3B0B422520521008EFFB4 /* level1.txt */; };
+		E5F3B0B722520522008EFFB4 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = E5F3B0B522520522008EFFB4 /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E5F3B0A92250EEB6008EFFB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5F3B0AC2250EEB6008EFFB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5F3B0AE2250EEB6008EFFB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F3B0B422520521008EFFB4 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		E5F3B0B522520522008EFFB4 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E5F3B0A92250EEB6008EFFB4 /* Assets.xcassets */,
 				E5F3B0AB2250EEB6008EFFB4 /* LaunchScreen.storyboard */,
 				E5F3B0AE2250EEB6008EFFB4 /* Info.plist */,
+				E5F3B0B422520521008EFFB4 /* level1.txt */,
+				E5F3B0B522520522008EFFB4 /* level2.txt */,
 			);
 			path = "Project-8-Seven-Swifty-Words";
 			sourceTree = "<group>";
@@ -122,7 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5F3B0B722520522008EFFB4 /* level2.txt in Resources */,
 				E5F3B0AD2250EEB6008EFFB4 /* LaunchScreen.storyboard in Resources */,
+				E5F3B0B622520522008EFFB4 /* level1.txt in Resources */,
 				E5F3B0AA2250EEB6008EFFB4 /* Assets.xcassets in Resources */,
 				E5F3B0A82250EEB0008EFFB4 /* Main.storyboard in Resources */,
 			);
