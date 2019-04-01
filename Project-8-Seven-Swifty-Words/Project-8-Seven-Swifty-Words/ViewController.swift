@@ -175,6 +175,17 @@ class ViewController: UIViewController {
                 ac.addAction(UIAlertAction(title: "Let's go!", style: .default, handler: levelUp))
                 present(ac, animated: true)
             }
+        } else {
+            let ac = UIAlertController(title: "Wrong answer!", message: "Please, try again", preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "Yes, Master", style: .default))
+            present(ac, animated: true)
+            
+            activatedButtons.removeAll()
+            score -= 1
+            
+            for button in letterButtons {
+                button.isHidden = false
+            }
         }
     }
     
