@@ -24,18 +24,41 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.showsStatistics = true
         
         // Create a new scene
-        //let scene = SCNScene(named: "art.scnassets/ship.scn")!
+
         let scene = SCNScene()
         
-        let box = SCNBox(width: 0.2, height: 0.2, length: 0.2, chamferRadius: 0)
-        let material = SCNMaterial()
-        material.diffuse.contents = UIColor.red
-        box.materials = [material]
+        //central earth object:
+        let earth = SCNSphere(radius: 0.2)
+        let earthMaterial = SCNMaterial()
+        earthMaterial.diffuse.contents = UIColor.blue
+        earth.materials = [earthMaterial]
         
-        let boxNode = SCNNode(geometry: box)
-        boxNode.position = SCNVector3(0, 0, -0.5)
+        let earthNode = SCNNode(geometry: earth)
+        earthNode.position = SCNVector3(0, 0, -0.8)
         
-        scene.rootNode.addChildNode(boxNode)
+        
+        //orbiting moon object:
+        let moon = SCNSphere(radius: 0.07)
+        let moonMaterial = SCNMaterial()
+        moonMaterial.diffuse.contents = UIColor.gray
+        moon.materials = [moonMaterial]
+        
+        let moonNode = SCNNode(geometry: moon)
+        moonNode.position = SCNVector3(0, 0, -0.5)
+        
+        //Helper
+        let helperNode = SCNNode()
+        helperNode.addChildNode(moonNode)
+        earthNode.addChildNode(helperNode) //declare it as a child of earth
+        helperNode.position = SCNVector3(0, 0, 0) //it's local to the earth coordinate system
+        
+        let rotation = SCNAction.repeatForever(SCNAction.rotate(by: .pi, around: SCNVector3(0, 1, 0), duration: 5))
+        helperNode.runAction(rotation)
+        
+        //add all the necessary objets to the scene:
+        scene.rootNode.addChildNode(earthNode)
+        //scene.rootNode.addChildNode(helperNode)
+        
         
         // Set the scene to the view
         sceneView.scene = scene
