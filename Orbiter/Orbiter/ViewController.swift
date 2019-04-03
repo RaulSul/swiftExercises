@@ -38,13 +38,19 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         
         //orbiting moon object:
-        let moon = SCNSphere(radius: 0.07)
+        let moon = SCNSphere(radius: earth.radius / 3.7)
         let moonMaterial = SCNMaterial()
         moonMaterial.diffuse.contents = UIColor.gray
         moon.materials = [moonMaterial]
         
         let moonNode = SCNNode(geometry: moon)
         moonNode.position = SCNVector3(0, 0, -0.5)
+        
+        //uncomment following for more accurate distance:
+        /*
+         let distance = moon.radius * 220
+        moonNode.position = SCNVector3(0, 0, -1 * distance)
+         */
         
         //Helper
         let helperNode = SCNNode()
