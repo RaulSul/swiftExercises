@@ -14,6 +14,7 @@
 		E5F3B137225623CD008EFFB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F3B135225623CD008EFFB4 /* LaunchScreen.storyboard */; };
 		E5F3B142225623CD008EFFB4 /* Project_39_Unit_TestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F3B141225623CD008EFFB4 /* Project_39_Unit_TestingTests.swift */; };
 		E5F3B14D225623CE008EFFB4 /* Project_39_Unit_TestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F3B14C225623CE008EFFB4 /* Project_39_Unit_TestingUITests.swift */; };
+		E5F3B15B22562603008EFFB4 /* plays.txt in Resources */ = {isa = PBXBuildFile; fileRef = E5F3B15A22562603008EFFB4 /* plays.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E5F3B148225623CD008EFFB4 /* Project-39-Unit-TestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project-39-Unit-TestingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F3B14C225623CE008EFFB4 /* Project_39_Unit_TestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_39_Unit_TestingUITests.swift; sourceTree = "<group>"; };
 		E5F3B14E225623CE008EFFB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F3B15A22562603008EFFB4 /* plays.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plays.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E5F3B133225623CD008EFFB4 /* Assets.xcassets */,
 				E5F3B135225623CD008EFFB4 /* LaunchScreen.storyboard */,
 				E5F3B138225623CD008EFFB4 /* Info.plist */,
+				E5F3B15A22562603008EFFB4 /* plays.txt */,
 			);
 			path = "Project-39-Unit-Testing";
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5F3B15B22562603008EFFB4 /* plays.txt in Resources */,
 				E5F3B137225623CD008EFFB4 /* LaunchScreen.storyboard in Resources */,
 				E5F3B134225623CD008EFFB4 /* Assets.xcassets in Resources */,
 				E5F3B132225623CB008EFFB4 /* Main.storyboard in Resources */,
