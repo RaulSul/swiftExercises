@@ -14,6 +14,7 @@
 		E5F3B1122254E162008EFFB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F3B1102254E162008EFFB4 /* Main.storyboard */; };
 		E5F3B1142254E166008EFFB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F3B1132254E166008EFFB4 /* Assets.xcassets */; };
 		E5F3B1172254E166008EFFB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F3B1152254E166008EFFB4 /* LaunchScreen.storyboard */; };
+		E5F3B11F22561010008EFFB4 /* FireParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = E5F3B11E22561010008EFFB4 /* FireParticles.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E5F3B1132254E166008EFFB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5F3B1162254E166008EFFB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5F3B1182254E166008EFFB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F3B11E22561010008EFFB4 /* FireParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticles.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				E5F3B1132254E166008EFFB4 /* Assets.xcassets */,
 				E5F3B1152254E166008EFFB4 /* LaunchScreen.storyboard */,
 				E5F3B1182254E166008EFFB4 /* Info.plist */,
+				E5F3B11E22561010008EFFB4 /* FireParticles.sks */,
 			);
 			path = "Project-11-Pachinko-Game";
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			files = (
 				E5F3B1122254E162008EFFB4 /* Main.storyboard in Resources */,
 				E5F3B1092254E162008EFFB4 /* GameScene.sks in Resources */,
+				E5F3B11F22561010008EFFB4 /* FireParticles.sks in Resources */,
 				E5F3B1142254E166008EFFB4 /* Assets.xcassets in Resources */,
 				E5F3B1172254E166008EFFB4 /* LaunchScreen.storyboard in Resources */,
 			);
