@@ -1,5 +1,8 @@
 # swiftExercises
 
+Orbiter:
+- A small AR app that showcases ARKit and SceneKit
+
 Project 1: The Storm Viewer App
 - a table view app that browses the images
 
